@@ -1,0 +1,14 @@
+﻿@model SessionDemo.ViewModels.HomeIndexViewModel
+
+<form asp-controller="Home" asp-action="Index" method="post">
+
+    <div>
+        <label asp-for="Search"></label>
+        <input asp-for="Search" />
+    </div>
+
+    <div>
+        <input type="submit" value="Add" />
+    </div>
+
+</form>

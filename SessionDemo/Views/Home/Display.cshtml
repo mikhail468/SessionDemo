@@ -1,0 +1,14 @@
+﻿@model SessionDemo.ViewModels.HomeDisplayViewModel
+
+<table >
+    
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+               
+                <td>@item.ItemName</td>
+
+            </tr>
+        }
+   
+</table>
